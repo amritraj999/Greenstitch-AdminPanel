@@ -1,0 +1,64 @@
+:root {
+  --PrimaryColor: hsl(217, 57%, 41%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(8, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(187, 27%, 87%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+.chart-container {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.chart-container .heading {
+  position: relative;
+  width: 260px;
+  height: 22px;
+  left: 70px;
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #282828;
+  text-align: center;
+}
+.chart-container .donut {
+  position: absolute;
+  width: 200px;
+  height: 179px;
+  left: 100px;
+  top: 50px;
+}
+.chart-container .detail {
+  position: absolute;
+  width: 300px;
+  height: 20px;
+  left: 90px;
+  top: 300px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #282828;
+}/*# sourceMappingURL=activity.css.map */

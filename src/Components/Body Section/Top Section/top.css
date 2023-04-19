@@ -1,0 +1,244 @@
+:root {
+  --PrimaryColor: hsl(217, 57%, 41%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(8, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+.topSection .headerSection {
+  justify-content: space-between;
+}
+.topSection .headerSection .searchBar {
+  padding: 0.5rem 3rem;
+  background: var(--whiteColor);
+  gap: 1rem;
+  box-shadow: 0 2px 4px var(--inputColor);
+  width: 100%;
+  border: 5px solid white;
+}
+.topSection .headerSection .searchBar input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.topSection .headerSection .searchBar .icon {
+  color: var(--textColor);
+}
+.topSection .headerSection .searchBar .icon:hover {
+  color: var(--PrimaryColor);
+}
+.topSection .headerSection .searchBar .adminDiv {
+  gap: 1rem;
+  justify-content: right;
+}
+.topSection .headerSection .searchBar .adminDiv .icon {
+  font-size: var(--biggestFontSize);
+  background: var(--whiteColor);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px var(--inputColor);
+  color: var(--textColor);
+}
+.topSection .headerSection .searchBar .adminDiv .adminImage {
+  border: 3px solid var(--whiteColor);
+  border-radius: 10px;
+  width: 2.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.topSection .headerSection .searchBar .adminDiv .adminImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.topSection .cardSection {
+  margin-top: 3rem;
+  padding-left: 50px;
+}
+.topSection .cardSection .mainContent {
+  display: flex;
+  gap: 34px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.topSection .cardSection .mainContent .vender {
+  background: #ffffff;
+  width: 300px;
+  height: 184px;
+  height: 184px;
+  border-radius: 10px;
+}
+.topSection .cardSection .mainContent .vender .name {
+  width: 194px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+  color: #5F6980;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .vender h2 {
+  width: 194px;
+  height: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: #282828;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .vender .Num {
+  width: 32px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #20C997;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  padding-top: 20px;
+}
+.topSection .cardSection .mainContent .Emissions {
+  background: #ffffff;
+  width: 350px;
+  height: 184px;
+  border-radius: 10px;
+}
+.topSection .cardSection .mainContent .Emissions .name2 {
+  width: 194px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+  color: #5F6980;
+  padding-left: 15px;
+}
+.topSection .cardSection .mainContent .Emissions .Spinning {
+  width: 194px;
+  height: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: #282828;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .Emissions .co2 {
+  width: 43px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #929292;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .Emissions .Num {
+  width: 32px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #20C997;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  padding-top: 20px;
+}
+.topSection .cardSection .mainContent .Emission {
+  background: #ffffff;
+  width: 450px;
+  height: 184px;
+  border-radius: 10px;
+}
+.topSection .cardSection .mainContent .Emission .name3 {
+  width: 194px;
+  height: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 26px;
+  color: #5F6980;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .Emission .Transportation {
+  width: 194px;
+  height: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: #282828;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .Emission .co2 {
+  width: 43px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #929292;
+  padding-left: 20px;
+}
+.topSection .cardSection .mainContent .Emission .Num {
+  width: 32px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #20C997;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  padding-top: 20px;
+}
+.topSection .cardSection .mainContent .Emission .incrmt {
+  position: relative;
+  width: 144px;
+  height: 20px;
+  left: 95px;
+  top: -29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #9D9FA2;
+}/*# sourceMappingURL=top.css.map */
